@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE17DB8926A7442D0051966C /* DragDropExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDropExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE17DB8926A7442D0051966C /* DragDropExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDropExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE17DB8C26A7442D0051966C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE17DB8E26A7442D0051966C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE17DB9026A7442D0051966C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		BE17DB8A26A7442D0051966C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE17DB8926A7442D0051966C /* DragDropExemple.app */,
+				BE17DB8926A7442D0051966C /* DragDropExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,15 +64,16 @@
 				BE17DB9726A744310051966C /* LaunchScreen.storyboard */,
 				BE17DB9A26A744310051966C /* Info.plist */,
 			);
-			path = DragDropExemple;
+			name = DragDropExemple;
+			path = DragDropExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE17DB8826A7442D0051966C /* DragDropExemple */ = {
+		BE17DB8826A7442D0051966C /* DragDropExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE17DB9D26A744310051966C /* Build configuration list for PBXNativeTarget "DragDropExemple" */;
+			buildConfigurationList = BE17DB9D26A744310051966C /* Build configuration list for PBXNativeTarget "DragDropExample" */;
 			buildPhases = (
 				BE17DB8526A7442D0051966C /* Sources */,
 				BE17DB8626A7442D0051966C /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = DragDropExemple;
+			name = DragDropExample;
 			productName = DragDropExemple;
-			productReference = BE17DB8926A7442D0051966C /* DragDropExemple.app */;
+			productReference = BE17DB8926A7442D0051966C /* DragDropExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE17DB8426A7442D0051966C /* Build configuration list for PBXProject "DragDropExemple" */;
+			buildConfigurationList = BE17DB8426A7442D0051966C /* Build configuration list for PBXProject "DragDropExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE17DB8826A7442D0051966C /* DragDropExemple */,
+				BE17DB8826A7442D0051966C /* DragDropExample */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +289,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23WSBM7T82;
-				INFOPLIST_FILE = DragDropExemple/Info.plist;
+				INFOPLIST_FILE = DragDropExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = academy.cin.ufpe.br.DragDropExemple;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.cin.ufpe.br.DragDropExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +308,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23WSBM7T82;
-				INFOPLIST_FILE = DragDropExemple/Info.plist;
+				INFOPLIST_FILE = DragDropExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = academy.cin.ufpe.br.DragDropExemple;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.cin.ufpe.br.DragDropExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE17DB8426A7442D0051966C /* Build configuration list for PBXProject "DragDropExemple" */ = {
+		BE17DB8426A7442D0051966C /* Build configuration list for PBXProject "DragDropExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE17DB9B26A744310051966C /* Debug */,
@@ -331,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE17DB9D26A744310051966C /* Build configuration list for PBXNativeTarget "DragDropExemple" */ = {
+		BE17DB9D26A744310051966C /* Build configuration list for PBXNativeTarget "DragDropExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE17DB9E26A744310051966C /* Debug */,
